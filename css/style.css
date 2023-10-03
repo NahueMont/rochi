@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Tektur:wght@400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Young+Serif&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap");
+@import url("../node_modules/bootstrap/scss/bootstrap.scss");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Young Serif", serif;
+}
+
+.header {
+  background-color: transparent !important;
+}
+.header .logo img {
+  margin: 1.5rem;
+  width: 50px;
+  height: 50px;
+}
+.header .logo .bgsuricata {
+  filter: invert(100%);
+}
+.header ul {
+  margin-left: 1.5rem;
+}
+.header ul li {
+  text-transform: uppercase;
+  padding: 0 10px;
+}
+.header ul li a {
+  font-size: 1.5rem;
+  text-align: center;
+}
+.header ul li p {
+  text-align: center;
+  font-family: "Caveat", cursive;
+  font-size: 1.45rem;
+  margin-bottom: 0;
+}
+
+.back {
+  background-image: url(../../resources/img/backgroundindex.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position-y: center;
+  height: 100vh;
+}
+
+h1 {
+  color: red;
+}/*# sourceMappingURL=style.css.map */

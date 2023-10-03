@@ -1,0 +1,31 @@
+// HEADER //
+.header{
+    background-color: transparent!important;
+    .logo{
+        img{
+            margin: 1.5rem;
+            width: 50px;
+            height: 50px;
+        }
+        .bgsuricata{
+            filter: invert(100%);
+        }
+    }
+    ul{
+        margin-left: 1.5rem;
+        li{
+            text-transform: uppercase;
+            padding: 0 10px;
+            a{
+                font-size: 1.5rem;
+                text-align: center;
+            }
+            p{
+                text-align: center;
+                font-family: 'Caveat', cursive;
+                font-size: 1.45rem;
+                margin-bottom: 0;
+            }
+        }
+    }
+}
