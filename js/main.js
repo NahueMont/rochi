@@ -11,6 +11,6 @@ noBtn.addEventListener('mouseover', function () {
 const yesBtn = document.querySelector('#siBtn');
 
 yesBtn.addEventListener('click', function () {
+    window.location.assign("./pages/nuestrahistoria.html");
     alert('Ayyyyy Malte, ya sabía que me amás tonta jiji')
-    window.location.href = "https://www.youtube.com/watch?v=HjojdEArPzU";
 });
