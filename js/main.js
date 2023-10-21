@@ -11,6 +11,5 @@ noBtn.addEventListener('mouseover', function () {
 const yesBtn = document.querySelector('#siBtn');
 
 yesBtn.addEventListener('click', function () {
-    window.location.assign("./pages/nuestrahistoria.html");
-    alert('Ayyyyy Malte, ya sabía que me amás tonta jiji')
+    alert('Ayyy Malte, ya sabía que me amás tonta jijiji ;)\n\nSigamos con la siguiente página :P')
 });
