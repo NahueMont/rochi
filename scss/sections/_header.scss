@@ -1,11 +1,11 @@
 // HEADER //
 .header{
-    position: fixed;
+    position: sticky;
+    height: 15vh;
     top: 0;
     width: 100%;
     background-color: transparent!important;
-    height: 15vh;
-    position: relative;
+    z-index: 999999;
     .container{
         flex-wrap: nowrap;
         .logo{
