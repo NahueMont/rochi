@@ -172,13 +172,70 @@ html .back2 main .featurette-divider {
   color: white;
   margin: 5rem 0;
 }
+html .back2 main .footerdivider {
+  margin-bottom: 0;
+}
 html .back2 main .row {
   display: flex;
   flex-wrap: nowrap;
   justify-content: center;
 }
 html .back2 main .row .featurette-heading {
-  letter-spacing: -0.05rem;
+  text-transform: uppercase;
+  font-family: "Caveat";
+  color: white;
+  letter-spacing: 0.25rem;
+  text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+}
+html .back2 main .row h2 {
+  margin: 1.5rem;
+}
+html .back2 main .row h2 .featurette-span {
+  color: rgb(131, 0, 143);
+  font-weight: 100;
+  text-shadow: 2px 3px #000000;
+}
+html .back2 main .row p {
+  color: rgb(255, 255, 255);
+  margin: 1rem;
+  text-shadow: 2px 3px #000000;
+}
+html .back2 main .footer {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+}
+html .back2 main .footer div {
+  text-align: center;
+  margin-right: 3rem;
+}
+html .back2 main .footer div a {
+  font-family: "Caveat";
+  margin: auto;
+  font-size: 3rem;
+}
+html .back2 main .footer div a button {
+  font-weight: 800;
+  padding: 1rem 1.5rem;
+  border-radius: 25px;
+  background-color: rgb(255, 0, 255);
+}
+html .back2 main .footer div i {
+  margin: 1rem auto;
+  font-size: 2rem;
+  color: rgb(255, 0, 255);
+}
+html .back2 main .footer div h3 {
+  padding: 0.8rem 0.5rem;
+  width: 15%;
+  border-radius: 25px;
+  background-color: rgba(5, 5, 5, 0.616);
+  font-weight: 900;
+  color: rgb(255, 255, 255);
+  margin: auto;
 }
 @media (min-width: 40em) {
   html .carousel-caption p {
