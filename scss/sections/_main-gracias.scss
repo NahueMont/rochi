@@ -1,0 +1,53 @@
+html{
+    .back4{
+        background-image: url(../resources/img/parquepereyra.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-y: center;
+        background-attachment: fixed;
+        height: 100vh;
+        scrollbar-gutter: stable both-edges;  
+        main{
+            .container{
+                text-align: center;
+                position: relative;
+                top: 15rem;
+                .modal-dialog{
+                    width: 100%;
+                    top: 6rem;
+                    background-color: transparent;
+                    margin-left: 27%;
+                    .modal-content{
+                        background-color: rgb(255, 0, 255);
+                        height: 30rem;
+                        width: 600px;
+                        .modal-header{
+                            border-bottom: 1px solid black;
+                            align-items: center;
+                            .modal-title{
+                                margin-left: 12.458rem;
+                                text-align: center;
+                                font-weight: 900;
+                                color: rgb(255, 255, 255);
+                            }
+                            .btn-close{
+                                --bs-btn-close-opacity: 1;
+                            }
+                        }
+                        .modal-body {
+                            p {
+                                color: #fff;
+                              font-size: 2rem;
+                              font-weight: 800;
+                              font-family: 'Caveat';
+                            }
+                        }
+                        .modal-footer{
+                            border: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
