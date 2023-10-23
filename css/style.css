@@ -253,6 +253,9 @@ html .back2 main .footer div h3 {
   }
 }
 
+html {
+  position: relative;
+}
 html .back3 {
   background-image: url(../resources/img/Sally.jpg);
   background-repeat: no-repeat;
@@ -261,10 +264,6 @@ html .back3 {
   background-attachment: fixed;
   height: 100vh;
   scrollbar-gutter: stable both-edges;
-}
-html .back3 main .boxshadow {
-  width: 100%;
-  border-radius: 30px;
 }
 html .back3 main .titulo100 {
   height: 85vh;
@@ -292,7 +291,7 @@ html .back3 main .titulo100 div i {
   color: white;
 }
 html .back3 main .container {
-  margin: 4rem auto;
+  margin-top: 4rem;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -337,7 +336,7 @@ html .back3 main .container .card .front h3 {
 }
 html .back3 main .container .card .back {
   transform: perspective(600px) rotateY(180deg);
-  background: rgb(3, 35, 54);
+  background: rgb(255, 0, 255);
   padding: 15px;
   color: #f3f3f3;
   display: flex;
@@ -354,9 +353,59 @@ html .back3 main .container .card .back h3 {
 html .back3 main .container .card .back p {
   letter-spacing: 1px;
 }
+html .back3 main .container .card .back p .yporque, html .back3 main .container .card .back p .simplemente {
+  font-weight: 900;
+  font-size: 1.4rem;
+}
+html .back3 main .container .card .back p .Teamo {
+  color: red;
+  font-weight: 900;
+  padding-bottom: 1rem;
+  font-size: 3rem;
+}
 html .back3 main .container .card:hover .front {
   transform: perspective(600px) rotateY(180deg);
 }
 html .back3 main .container .card:hover .back {
   transform: perspective(600px) rotateY(360deg);
+}
+html .back3 main .container .footer {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+}
+html .back3 main .container .footer div {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-right: 3rem;
+}
+html .back3 main .container .footer div a {
+  font-family: "Caveat";
+  margin: auto;
+  font-size: 2.8rem;
+}
+html .back3 main .container .footer div a button {
+  color: white;
+  font-weight: 800;
+  padding: 1rem 1.5rem;
+  border-radius: 25px;
+  background-color: rgb(255, 0, 255);
+}
+html .back3 main .container .footer div i {
+  margin: 1rem auto;
+  font-size: 2rem;
+  color: rgb(255, 0, 255);
+}
+html .back3 main .container .footer div h3 {
+  padding: 0.8rem 0.5rem;
+  width: 15%;
+  border-radius: 25px;
+  background-color: rgba(255, 0, 255, 0.616);
+  font-weight: 900;
+  color: rgb(255, 255, 255);
+  margin: auto;
 }/*# sourceMappingURL=style.css.map */

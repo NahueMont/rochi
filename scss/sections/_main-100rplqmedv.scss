@@ -1,4 +1,5 @@
 html{
+    position: relative;
     .back3{
         background-image: url(../resources/img/Sally.jpg);
         background-repeat: no-repeat;
@@ -8,10 +9,6 @@ html{
         height: 100vh;
         scrollbar-gutter: stable both-edges;
         main{
-            .boxshadow{
-                width: 100%;
-                border-radius: 30px;
-            }
             .titulo100{
                 height: 85vh;
                 display: flex;
@@ -38,7 +35,7 @@ html{
                 }
             }
             .container{
-                margin: 4rem auto;
+                margin-top: 4rem;
                 display: flex;
                 flex-wrap: wrap;
                 align-items: center;
@@ -81,7 +78,7 @@ html{
                     }
                     .back {
                         transform: perspective(600px) rotateY(180deg);
-                        background: rgb(3, 35, 54);
+                        background: rgb(255, 0, 255);
                         padding: 15px;
                         color: #f3f3f3;
                         display: flex;
@@ -96,7 +93,18 @@ html{
                         }
                         p {
                             letter-spacing: 1px;
+                            .yporque, .simplemente{
+                                font-weight: 900;
+                                font-size: 1.4rem;
+                            }
+                            .Teamo{
+                                color: red;
+                                font-weight: 900;
+                                padding-bottom: 1rem;
+                                font-size: 3rem;
+                            }
                         } 
+
                     }
                 }
                 .card:hover .front {
@@ -105,6 +113,46 @@ html{
                 
                 .card:hover .back {
                     transform: perspective(600px) rotateY(360deg);
+                }
+                .footer{
+                    height: 100vh;
+                    display: flex;
+                    flex-direction: column;
+                    flex-wrap: nowrap;
+                    align-items: center;
+                    justify-content: center;
+                    div{
+                        display: flex;
+                        flex-direction: column;
+                        text-align: center;
+                        margin-right: 3rem;
+                        a{
+                            font-family: 'Caveat';
+                            margin: auto;
+                            font-size: 2.8rem;
+                            button{
+                                color: white;
+                                font-weight: 800;
+                                padding: 1rem 1.5rem;
+                                border-radius: 25px;
+                                background-color: rgb(255, 0, 255);
+                            }
+                        }
+                        i{
+                            margin: 1rem auto;
+                            font-size: 2rem;
+                            color: rgb(255, 0, 255);
+                        }
+                        h3{
+                            padding: 0.8rem 0.5rem;
+                            width: 15%;
+                            border-radius: 25px;
+                            background-color: rgba(255, 0, 255, 0.616);
+                            font-weight: 900;
+                            color: rgb(255, 255, 255);
+                            margin: auto;
+                        }
+                    }
                 }
             }
             
