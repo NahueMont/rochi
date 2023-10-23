@@ -12,6 +12,10 @@ html{
                 text-align: center;
                 position: relative;
                 top: 15rem;
+                button:hover{
+                    transform: scale(2);
+                    transition: all ease-out 0.5s;
+                }
                 .modal-dialog{
                     width: 100%;
                     top: 6rem;
@@ -44,6 +48,10 @@ html{
                         }
                         .modal-footer{
                             border: none;
+                            button:hover{
+                                transform: none;
+                                transition: none;
+                            }
                         }
                     }
                 }

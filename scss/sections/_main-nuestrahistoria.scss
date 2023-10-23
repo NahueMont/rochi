@@ -28,10 +28,18 @@ html {
                 padding: 2rem 0 0 0;
             }
 
+            .headerOurStory:hover {
+                transform: scale(1.2);
+                cursor: pointer;
+                color: rgb(234, 0, 255);
+                transition: all ease-out 0.3s;
+            }
+
             .subheader {
                 padding-top: 4rem;
                 position: relative;
                 height: 40vh;
+
                 p {
                     color: #ccc;
                     font-size: 1.5rem;
@@ -43,12 +51,20 @@ html {
                 }
             }
 
+            .subheader:hover {
+                transform: scale(1.1);
+                cursor: pointer;
+                transition: all ease-in-out 0.5s;
+            }
+
             .carousel {
                 margin-bottom: 4rem;
-                h1{
+
+                h1 {
                     color: #0000ff;
 
                 }
+
                 .carousel-caption {
                     bottom: 3rem;
                     z-index: 10;
@@ -58,121 +74,159 @@ html {
                 .carousel-item {
                     text-align: center;
                     height: 38rem;
-                    img{
+
+                    img {
                         height: 100%;
                         width: auto;
                     }
-                    .span{
+
+                    .span {
                         color: rgb(0, 80, 145);
                     }
-                    .span2{
+
+                    .span2 {
                         color: #b80000;
                     }
-                    .span3{
+
+                    .span3 {
                         color: #000000;
                     }
-                    .span4{
+
+                    .span4 {
                         color: #8400ff;
                     }
-                    .span5{
+
+                    .span5 {
                         font-family: 'Tektur';
                         text-transform: uppercase;
                         color: #b80000;
                     }
-                    .span6{
+
+                    .span6 {
                         color: #00e1ff;
                     }
-            }
-        }
-        .featurette-divider {
-            opacity: 1;
-            color: white;
-            margin: 5rem 0;
-        }
-        .footerdivider{
-            margin-bottom: 0;
-        }
-        .row{
-            display: flex;
-            flex-wrap: nowrap;
-            justify-content: center;
-            .featurette-heading {
-                text-transform: uppercase;
-                font-family: 'Caveat';
-                color: white;
-                letter-spacing: .25rem;
-                text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
-            }
-            h2{
-                margin: 1.5rem;
-                .featurette-span{
-                    color: rgb(131, 0, 143);
-                    font-weight: 100;
-                    text-shadow: 2px 3px #000000;
                 }
             }
-            
-            p{
-                color: rgb(255, 255, 255);
-                margin: 1rem;
-                text-shadow: 2px 3px #000000;
+
+            .featurette-divider {
+                opacity: 1;
+                color: white;
+                margin: 5rem 0;
             }
-        }
-        .footer{
-            height: 100vh;
-            display: flex;
-            flex-direction: column;
-            flex-wrap: nowrap;
-            align-items: center;
-            justify-content: center;
-            div{
-                text-align: center;
-                margin-right: 3rem;
-                a{
+
+            .footerdivider {
+                margin-bottom: 0;
+            }
+
+            .row {
+                display: flex;
+                flex-wrap: nowrap;
+                justify-content: center;
+
+                .featurette-heading {
+                    text-transform: uppercase;
                     font-family: 'Caveat';
-                    margin: auto;
-                    font-size: 2.8rem;
-                    button{
-                        font-weight: 800;
-                        padding: 1rem 1.5rem;
-                        border-radius: 25px;
-                        background-color: rgb(255, 0, 255);
+                    color: white;
+                    letter-spacing: .25rem;
+                    text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+                }
+
+                h2 {
+                    margin: 1.5rem;
+
+                    .featurette-span {
+                        color: rgb(131, 0, 143);
+                        font-weight: 100;
+                        text-shadow: 2px 3px #000000;
                     }
                 }
-                i{
-                    margin: 1rem auto;
-                    font-size: 2rem;
-                    color: rgb(255, 0, 255);
-                }
-                h3{
-                    padding: 0.8rem 0.5rem;
-                    width: 15%;
-                    border-radius: 25px;
-                    background-color: rgba(5, 5, 5, 0.616);
-                    font-weight: 900;
+
+                p {
                     color: rgb(255, 255, 255);
-                    margin: auto;
+                    margin: 1rem;
+                    text-shadow: 2px 3px #000000;
+                }
+
+                img:hover {
+                    transition: all ease-out 0.3s;
+                    transform: scale(1.05);
+                    cursor: pointer;
+                }
+            }
+
+            .footer {
+                height: 100vh;
+                display: flex;
+                flex-direction: column;
+                flex-wrap: nowrap;
+                align-items: center;
+                justify-content: center;
+
+                div {
+                    text-align: center;
+                    margin-right: 3rem;
+
+                    a {
+                        font-family: 'Caveat';
+                        margin: auto;
+                        font-size: 2.8rem;
+
+                        button {
+                            font-weight: 800;
+                            padding: 1rem 1.5rem;
+                            border-radius: 25px;
+                            background-color: rgb(255, 0, 255);
+                        }
+
+                        button:hover {
+                            transform: scale(1.2);
+                            cursor: pointer;
+                            color: #ffffff;
+                            transition: all ease-out 0.3s;
+                        }
+                    }
+
+                    i {
+                        margin: 1rem auto;
+                        font-size: 2rem;
+                        color: rgb(255, 0, 255);
+                    }
+
+                    h3 {
+                        padding: 0.8rem 0.5rem;
+                        width: 15%;
+                        border-radius: 25px;
+                        background-color: rgba(5, 5, 5, 0.616);
+                        font-weight: 900;
+                        color: rgb(255, 255, 255);
+                        margin: auto;
+                    }
+
+                    h3:hover {
+                        transition: all ease-out 0.3s;
+                        transform: scale(1.1);
+                        cursor: pointer;
+                    }
                 }
             }
         }
     }
-}
 
-@media (min-width: 40em) {
-    .carousel-caption p {
-        margin-bottom: 1.25rem;
-        font-size: 1.25rem;
-        line-height: 1.4;
+    @media (min-width: 40em) {
+        .carousel-caption p {
+            margin-bottom: 1.25rem;
+            font-size: 1.25rem;
+            line-height: 1.4;
+        }
+
+        .featurette-heading {
+            font-size: 50px;
+        }
     }
 
-    .featurette-heading {
-        font-size: 50px;
-    }
-}
-
-@media (min-width: 62em) {
-    .featurette-heading {
-        margin-top: 3rem;
+    @media (min-width: 62em) {
+        .featurette-heading {
+            margin-top: 3rem;
         }
     }
 }

@@ -35,15 +35,28 @@
   text-transform: uppercase;
   padding: 0 10px;
 }
+.header .container ul li .active {
+  text-decoration: underline;
+}
 .header .container ul li a {
   font-size: 1.5rem;
   text-align: center;
+}
+.header .container ul li a:hover {
+  transform: scale(1.2);
+  text-decoration: underline;
+  text-decoration-color: pink;
+  transition: all ease-out 0.4s;
 }
 .header .container ul li p {
   text-align: center;
   font-family: "Caveat", cursive;
   font-size: 1.45rem;
   margin-bottom: 0;
+}
+.header .container ul li p:hover {
+  transform: scale(1.2);
+  color: pink;
 }
 
 .back {
@@ -114,6 +127,12 @@ html .back2 main .headerOurStory {
   text-align: center;
   padding: 2rem 0 0 0;
 }
+html .back2 main .headerOurStory:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+  color: rgb(234, 0, 255);
+  transition: all ease-out 0.3s;
+}
 html .back2 main .subheader {
   padding-top: 4rem;
   position: relative;
@@ -127,6 +146,11 @@ html .back2 main .subheader p {
   padding: 1rem 3rem;
   border-radius: 80px;
   text-align: center;
+}
+html .back2 main .subheader:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+  transition: all ease-in-out 0.5s;
 }
 html .back2 main .carousel {
   margin-bottom: 4rem;
@@ -200,6 +224,11 @@ html .back2 main .row p {
   margin: 1rem;
   text-shadow: 2px 3px #000000;
 }
+html .back2 main .row img:hover {
+  transition: all ease-out 0.3s;
+  transform: scale(1.05);
+  cursor: pointer;
+}
 html .back2 main .footer {
   height: 100vh;
   display: flex;
@@ -223,6 +252,12 @@ html .back2 main .footer div a button {
   border-radius: 25px;
   background-color: rgb(255, 0, 255);
 }
+html .back2 main .footer div a button:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+  color: #ffffff;
+  transition: all ease-out 0.3s;
+}
 html .back2 main .footer div i {
   margin: 1rem auto;
   font-size: 2rem;
@@ -236,6 +271,11 @@ html .back2 main .footer div h3 {
   font-weight: 900;
   color: rgb(255, 255, 255);
   margin: auto;
+}
+html .back2 main .footer div h3:hover {
+  transition: all ease-out 0.3s;
+  transform: scale(1.1);
+  cursor: pointer;
 }
 @media (min-width: 40em) {
   html .carousel-caption p {
@@ -272,6 +312,7 @@ html .back3 main .titulo100 {
   flex-wrap: nowrap;
   align-items: center;
   justify-content: center;
+  margin-left: 23%;
 }
 html .back3 main .titulo100 div {
   font-weight: 800;
@@ -281,7 +322,10 @@ html .back3 main .titulo100 div {
   text-align: center;
   margin-top: 15rem;
 }
-html .back3 main .titulo100 div h1 {
+html .back3 main .titulo100 div a {
+  text-decoration: none;
+}
+html .back3 main .titulo100 div a h1 {
   color: white;
   text-transform: uppercase;
   font-family: "Caveat";
@@ -289,6 +333,11 @@ html .back3 main .titulo100 div h1 {
 }
 html .back3 main .titulo100 div i {
   color: white;
+}
+html .back3 main .titulo100:hover {
+  transition: all ease-out 0.3s;
+  transform: scale(1.2);
+  cursor: pointer;
 }
 html .back3 main .container {
   margin-top: 4rem;
@@ -353,7 +402,8 @@ html .back3 main .container .card .back h3 {
 html .back3 main .container .card .back p {
   letter-spacing: 1px;
 }
-html .back3 main .container .card .back p .yporque, html .back3 main .container .card .back p .simplemente {
+html .back3 main .container .card .back p .yporque,
+html .back3 main .container .card .back p .simplemente {
   font-weight: 900;
   font-size: 1.4rem;
 }
@@ -362,6 +412,11 @@ html .back3 main .container .card .back p .Teamo {
   font-weight: 900;
   padding-bottom: 1rem;
   font-size: 3rem;
+}
+html .back3 main .container .card:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+  transition: all ease 0.45s;
 }
 html .back3 main .container .card:hover .front {
   transform: perspective(600px) rotateY(180deg);
@@ -395,6 +450,12 @@ html .back3 main .container .footer div a button {
   border-radius: 25px;
   background-color: rgb(255, 0, 255);
 }
+html .back3 main .container .footer div a button:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+  color: #ffffff;
+  transition: all ease-out 0.3s;
+}
 html .back3 main .container .footer div i {
   margin: 1rem auto;
   font-size: 2rem;
@@ -408,6 +469,11 @@ html .back3 main .container .footer div h3 {
   font-weight: 900;
   color: rgb(255, 255, 255);
   margin: auto;
+}
+html .back3 main .container .footer div h3:hover {
+  transition: all ease-out 0.3s;
+  transform: scale(1.1);
+  cursor: pointer;
 }
 
 html .back4 {
@@ -423,6 +489,10 @@ html .back4 main .container {
   text-align: center;
   position: relative;
   top: 15rem;
+}
+html .back4 main .container button:hover {
+  transform: scale(2);
+  transition: all ease-out 0.5s;
 }
 html .back4 main .container .modal-dialog {
   width: 100%;
@@ -456,4 +526,8 @@ html .back4 main .container .modal-dialog .modal-content .modal-body p {
 }
 html .back4 main .container .modal-dialog .modal-content .modal-footer {
   border: none;
+}
+html .back4 main .container .modal-dialog .modal-content .modal-footer button:hover {
+  transform: none;
+  transition: none;
 }/*# sourceMappingURL=style.css.map */
