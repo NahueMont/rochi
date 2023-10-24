@@ -1,0 +1,54 @@
+// HEADER //
+.header{
+    position: sticky;
+    height: 15vh;
+    top: 0;
+    width: 100%;
+    background-color: transparent!important;
+    z-index: 999999;
+    .container{
+        flex-wrap: nowrap;
+        .logo{
+            img{
+                margin: 1.5rem;
+                width: 45px;
+                height: 45px;
+            }
+            .bgsuricata{
+                filter: invert(100%);
+            }
+        }
+        ul{
+            margin-left: 1.5rem;
+            li{
+                .active{
+                    text-decoration: underline;
+                }
+                text-transform: uppercase;
+                padding: 0 10px;
+                a{
+                    font-size: 1.5rem;
+                    text-align: center;
+                }
+                a:hover{
+                    transform: scale(1.2);
+                    text-decoration: underline;
+                    text-decoration-color: pink;
+                    transition: all ease-out 0.4s;
+                }
+                p{
+                    text-align: center;
+                    font-family: 'Caveat', cursive;
+                    font-size: 1.45rem;
+                    margin-bottom: 0;
+                }
+                p:hover{
+                    transform: scale(1.2);
+                    color: pink;
+                }
+            }
+            
+        }
+    }
+    
+}

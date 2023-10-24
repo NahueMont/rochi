@@ -1,0 +1,47 @@
+.back{
+    background-image: url(../resources/img/backgroundindex.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-y: center;
+    height: 100vh;
+}
+
+#mainIndex {
+    .indexContainer{
+        background-color: transparent;
+        width: 100vw;
+        text-align: center;
+        .headerh1{
+            background: -webkit-linear-gradient(45deg, rgb(255, 0, 255), rgb(60, 0, 88) 60%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            font-family: 'Tektur', serif;
+            font-size: 3rem;
+            color: violet;
+            margin-top: 28%;
+            padding-left: 50px;
+            position: absolute;
+        }
+        button{
+            background-color: #000000;
+            color: #fff;
+            font-size: 2rem;
+            padding: 0.75em;
+            margin-right: 5rem;
+            background: rgb(255,0,255);
+            background: linear-gradient(90deg, rgba(255,0,255,0.5) 0%, rgba(60,0,88,1) 60%);
+            
+        }
+        #siBtn{
+            transform: translate(-100%,0);
+            width: 97.61px; 
+            position: relative;
+            margin-top: 28%;
+            margin-left: 40rem;
+        }
+        #noBtn{
+            position: absolute;
+            margin-top: 28%;
+        }
+    }
+}
